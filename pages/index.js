@@ -14,11 +14,11 @@ setInterval(() => {
 
 
 
-// if (time=== 0) {
+if (time=== 0) {
 
-// window.location.href = 'http://www.trufflie.com';
+window.location.href = 'http://www.trufflie.com';
 
-// }
+}
   return (
     
     
@@ -26,7 +26,7 @@ setInterval(() => {
         <h1 className="text-3xl font-bold text-center"> This page has moved! </h1>
       <div className="text-center relative top-0 left-1/2">
         <Spinner />
-        <redir time= "time"/>
+        
         </div>
           <div className="flex-col">
             
